@@ -1,0 +1,56 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\WindowsApp.exe.config
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\WindowsApp.exe
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\WindowsApp.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\PriceComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\SqlDB.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\PriceComponent.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\SqlDB.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.DataManager.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyAdd.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyEdit.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyManager.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.MainMenu.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteAdd.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteEdit.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteManager.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.exe
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\Model.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\Model.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachManager.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachAdd.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachEdit.resources
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\SeatingAllocationComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\bin\Debug\SeatingAllocationComponent.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\WindowsApp\obj\Debug\WindowsApp.SeatingAllocator.resources
+I:\EuropeBus\WindowsApp\bin\Debug\WindowsApp.exe.config
+I:\EuropeBus\WindowsApp\bin\Debug\WindowsApp.exe
+I:\EuropeBus\WindowsApp\bin\Debug\WindowsApp.pdb
+I:\EuropeBus\WindowsApp\bin\Debug\Model.dll
+I:\EuropeBus\WindowsApp\bin\Debug\PriceComponent.dll
+I:\EuropeBus\WindowsApp\bin\Debug\SeatingAllocationComponent.dll
+I:\EuropeBus\WindowsApp\bin\Debug\SqlDB.dll
+I:\EuropeBus\WindowsApp\bin\Debug\Model.pdb
+I:\EuropeBus\WindowsApp\bin\Debug\PriceComponent.pdb
+I:\EuropeBus\WindowsApp\bin\Debug\SeatingAllocationComponent.pdb
+I:\EuropeBus\WindowsApp\bin\Debug\SqlDB.pdb
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachAdd.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachEdit.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.CoachManager.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.DataManager.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyAdd.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyEdit.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.JourneyManager.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.MainMenu.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteAdd.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteEdit.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.RouteManager.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.SeatingAllocator.resources
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.exe
+I:\EuropeBus\WindowsApp\obj\Debug\WindowsApp.pdb

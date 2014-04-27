@@ -1,0 +1,18 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\SeatingAllocationComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\SeatingAllocationComponent.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\Model.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\SqlDB.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\Model.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\bin\Debug\SqlDB.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.csprojResolveAssemblyReference.cache
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.pdb
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\SeatingAllocationComponent.dll
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\SeatingAllocationComponent.pdb
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\Model.dll
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\SqlDB.dll
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\Model.pdb
+I:\EuropeBus\SeatingAllocationComponent\bin\Debug\SqlDB.pdb
+I:\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.csprojResolveAssemblyReference.cache
+I:\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.dll
+I:\EuropeBus\SeatingAllocationComponent\obj\Debug\SeatingAllocationComponent.pdb

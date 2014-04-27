@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getMovieByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMovieByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMovieByIDResult" type="tns:Movie" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Movie">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Genre" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="YearPublished" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AgeRating" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DirectorName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Actors" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getAllMovies">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAllMoviesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllMoviesResult" type="tns:ArrayOfMovie" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMovie">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Movie" nillable="true" type="tns:Movie" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getMoviesByTitle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMoviesByTitleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMoviesByTitleResult" type="tns:ArrayOfMovie" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Movie" nillable="true" type="tns:Movie" />
+      <s:element name="ArrayOfMovie" nillable="true" type="tns:ArrayOfMovie" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getMovieByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:getMovieByID" />
+  </wsdl:message>
+  <wsdl:message name="getMovieByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:getMovieByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllMoviesSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllMovies" />
+  </wsdl:message>
+  <wsdl:message name="getAllMoviesSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllMoviesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleSoapIn">
+    <wsdl:part name="parameters" element="tns:getMoviesByTitle" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleSoapOut">
+    <wsdl:part name="parameters" element="tns:getMoviesByTitleResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMovieByIDHttpGetIn">
+    <wsdl:part name="id" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMovieByIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:Movie" />
+  </wsdl:message>
+  <wsdl:message name="getAllMoviesHttpGetIn" />
+  <wsdl:message name="getAllMoviesHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMovie" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleHttpGetIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMovie" />
+  </wsdl:message>
+  <wsdl:message name="getMovieByIDHttpPostIn">
+    <wsdl:part name="id" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMovieByIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:Movie" />
+  </wsdl:message>
+  <wsdl:message name="getAllMoviesHttpPostIn" />
+  <wsdl:message name="getAllMoviesHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMovie" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleHttpPostIn">
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMoviesByTitleHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfMovie" />
+  </wsdl:message>
+  <wsdl:portType name="SearcherSoap">
+    <wsdl:operation name="getMovieByID">
+      <wsdl:input message="tns:getMovieByIDSoapIn" />
+      <wsdl:output message="tns:getMovieByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <wsdl:input message="tns:getAllMoviesSoapIn" />
+      <wsdl:output message="tns:getAllMoviesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <wsdl:input message="tns:getMoviesByTitleSoapIn" />
+      <wsdl:output message="tns:getMoviesByTitleSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SearcherHttpGet">
+    <wsdl:operation name="getMovieByID">
+      <wsdl:input message="tns:getMovieByIDHttpGetIn" />
+      <wsdl:output message="tns:getMovieByIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <wsdl:input message="tns:getAllMoviesHttpGetIn" />
+      <wsdl:output message="tns:getAllMoviesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <wsdl:input message="tns:getMoviesByTitleHttpGetIn" />
+      <wsdl:output message="tns:getMoviesByTitleHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SearcherHttpPost">
+    <wsdl:operation name="getMovieByID">
+      <wsdl:input message="tns:getMovieByIDHttpPostIn" />
+      <wsdl:output message="tns:getMovieByIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <wsdl:input message="tns:getAllMoviesHttpPostIn" />
+      <wsdl:output message="tns:getAllMoviesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <wsdl:input message="tns:getMoviesByTitleHttpPostIn" />
+      <wsdl:output message="tns:getMoviesByTitleHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SearcherSoap" type="tns:SearcherSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getMovieByID">
+      <soap:operation soapAction="http://tempuri.org/getMovieByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <soap:operation soapAction="http://tempuri.org/getAllMovies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <soap:operation soapAction="http://tempuri.org/getMoviesByTitle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SearcherSoap12" type="tns:SearcherSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getMovieByID">
+      <soap12:operation soapAction="http://tempuri.org/getMovieByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <soap12:operation soapAction="http://tempuri.org/getAllMovies" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <soap12:operation soapAction="http://tempuri.org/getMoviesByTitle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SearcherHttpGet" type="tns:SearcherHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getMovieByID">
+      <http:operation location="/getMovieByID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <http:operation location="/getAllMovies" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <http:operation location="/getMoviesByTitle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SearcherHttpPost" type="tns:SearcherHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getMovieByID">
+      <http:operation location="/getMovieByID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllMovies">
+      <http:operation location="/getAllMovies" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMoviesByTitle">
+      <http:operation location="/getMoviesByTitle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Searcher">
+    <wsdl:port name="SearcherSoap" binding="tns:SearcherSoap">
+      <soap:address location="http://stuiis.cms.gre.ac.uk/lj048/EuropeBus/MovieDb/Searcher.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SearcherSoap12" binding="tns:SearcherSoap12">
+      <soap12:address location="http://stuiis.cms.gre.ac.uk/lj048/EuropeBus/MovieDb/Searcher.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SearcherHttpGet" binding="tns:SearcherHttpGet">
+      <http:address location="http://stuiis.cms.gre.ac.uk/lj048/EuropeBus/MovieDb/Searcher.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SearcherHttpPost" binding="tns:SearcherHttpPost">
+      <http:address location="http://stuiis.cms.gre.ac.uk/lj048/EuropeBus/MovieDb/Searcher.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

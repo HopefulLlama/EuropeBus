@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApp", "WindowsApp\WindowsApp.csproj", "{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDb", "SqlDB\SqlDb.csproj", "{F70F2475-3A74-40EB-9B85-A99FDC0732B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceComponent", "PriceComponent\PriceComponent.csproj", "{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{39825BB4-0EE0-403D-8796-4FFD736233A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FC4346CD-3DD9-426A-AB6A-4ED0E8D6B845}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8} = {3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDb", "MovieDb\MovieDb.csproj", "{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatingAllocationComponent", "SeatingAllocationComponent\SeatingAllocationComponent.csproj", "{A949E2CA-2893-42E2-BEF6-4F67F1FA028D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70F2475-3A74-40EB-9B85-A99FDC0732B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70F2475-3A74-40EB-9B85-A99FDC0732B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70F2475-3A74-40EB-9B85-A99FDC0732B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70F2475-3A74-40EB-9B85-A99FDC0732B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39825BB4-0EE0-403D-8796-4FFD736233A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39825BB4-0EE0-403D-8796-4FFD736233A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39825BB4-0EE0-403D-8796-4FFD736233A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39825BB4-0EE0-403D-8796-4FFD736233A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4346CD-3DD9-426A-AB6A-4ED0E8D6B845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4346CD-3DD9-426A-AB6A-4ED0E8D6B845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4346CD-3DD9-426A-AB6A-4ED0E8D6B845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4346CD-3DD9-426A-AB6A-4ED0E8D6B845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D35F2F8-6ED8-4D5F-9BE8-36236F9DA3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A949E2CA-2893-42E2-BEF6-4F67F1FA028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A949E2CA-2893-42E2-BEF6-4F67F1FA028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A949E2CA-2893-42E2-BEF6-4F67F1FA028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A949E2CA-2893-42E2-BEF6-4F67F1FA028D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

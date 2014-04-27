@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4D2B546-62BC-485D-AAC0-0DC2B82D75B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsApp</RootNamespace>
+    <AssemblyName>WindowsApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoachAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachAdd.Designer.cs">
+      <DependentUpon>CoachAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachEdit.Designer.cs">
+      <DependentUpon>CoachEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoachManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoachManager.Designer.cs">
+      <DependentUpon>CoachManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager.Designer.cs">
+      <DependentUpon>DataManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JourneyAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JourneyAdd.Designer.cs">
+      <DependentUpon>JourneyAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JourneyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JourneyEdit.Designer.cs">
+      <DependentUpon>JourneyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JourneyManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JourneyManager.Designer.cs">
+      <DependentUpon>JourneyManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RouteAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RouteAdd.Designer.cs">
+      <DependentUpon>RouteAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RouteEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RouteEdit.Designer.cs">
+      <DependentUpon>RouteEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RouteManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RouteManager.Designer.cs">
+      <DependentUpon>RouteManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatingAllocator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeatingAllocator.Designer.cs">
+      <DependentUpon>SeatingAllocator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsHandler.cs" />
+    <EmbeddedResource Include="CoachAdd.resx">
+      <DependentUpon>CoachAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachEdit.resx">
+      <DependentUpon>CoachEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoachManager.resx">
+      <DependentUpon>CoachManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager.resx">
+      <DependentUpon>DataManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JourneyAdd.resx">
+      <DependentUpon>JourneyAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JourneyEdit.resx">
+      <DependentUpon>JourneyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JourneyManager.resx">
+      <DependentUpon>JourneyManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RouteAdd.resx">
+      <DependentUpon>RouteAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RouteEdit.resx">
+      <DependentUpon>RouteEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RouteManager.resx">
+      <DependentUpon>RouteManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeatingAllocator.resx">
+      <DependentUpon>SeatingAllocator.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{fc4346cd-3dd9-426a-ab6a-4ed0e8d6b845}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PriceComponent\PriceComponent.csproj">
+      <Project>{447EFEE5-0AD6-4ACC-8AC7-EFCCC71EEC91}</Project>
+      <Name>PriceComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeatingAllocationComponent\SeatingAllocationComponent.csproj">
+      <Project>{a949e2ca-2893-42e2-bef6-4f67f1fa028d}</Project>
+      <Name>SeatingAllocationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDB\SqlDb.csproj">
+      <Project>{f70f2475-3a74-40eb-9b85-a99fdc0732b2}</Project>
+      <Name>SqlDb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

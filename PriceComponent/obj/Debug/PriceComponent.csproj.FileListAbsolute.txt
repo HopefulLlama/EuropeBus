@@ -1,0 +1,10 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\PriceComponent\bin\Debug\PriceComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\PriceComponent\bin\Debug\PriceComponent.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\PriceComponent\obj\Debug\PriceComponent.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\PriceComponent\obj\Debug\PriceComponent.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\PriceComponent\obj\Debug\PriceComponent.csprojResolveAssemblyReference.cache
+I:\EuropeBus\PriceComponent\bin\Debug\PriceComponent.dll
+I:\EuropeBus\PriceComponent\bin\Debug\PriceComponent.pdb
+I:\EuropeBus\PriceComponent\obj\Debug\PriceComponent.dll
+I:\EuropeBus\PriceComponent\obj\Debug\PriceComponent.pdb
+I:\EuropeBus\PriceComponent\obj\Debug\PriceComponent.csprojResolveAssemblyReference.cache

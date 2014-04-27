@@ -1,0 +1,10 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SqlDB\bin\Debug\SqlDB.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SqlDB\bin\Debug\SqlDB.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SqlDB\obj\Debug\SqlDB.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SqlDB\obj\Debug\SqlDB.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SqlDB\obj\Debug\SqlDb.csprojResolveAssemblyReference.cache
+I:\EuropeBus\SqlDB\bin\Debug\SqlDB.dll
+I:\EuropeBus\SqlDB\bin\Debug\SqlDB.pdb
+I:\EuropeBus\SqlDB\obj\Debug\SqlDB.dll
+I:\EuropeBus\SqlDB\obj\Debug\SqlDB.pdb
+I:\EuropeBus\SqlDB\obj\Debug\SqlDb.csprojResolveAssemblyReference.cache

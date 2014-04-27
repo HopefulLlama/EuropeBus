@@ -1,0 +1,15 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\bin\Debug\Model.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\bin\Debug\Model.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\bin\Debug\SqlDB.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\bin\Debug\SqlDB.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\obj\Debug\Model.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\Model\obj\Debug\Model.pdb
+I:\EuropeBus\Model\bin\Debug\Model.dll.config
+I:\EuropeBus\Model\bin\Debug\Model.dll
+I:\EuropeBus\Model\bin\Debug\Model.pdb
+I:\EuropeBus\Model\bin\Debug\SqlDB.dll
+I:\EuropeBus\Model\bin\Debug\SqlDB.pdb
+I:\EuropeBus\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+I:\EuropeBus\Model\obj\Debug\Model.dll
+I:\EuropeBus\Model\obj\Debug\Model.pdb

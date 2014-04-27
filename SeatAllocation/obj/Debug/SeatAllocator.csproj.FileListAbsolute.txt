@@ -1,0 +1,5 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatAllocation\bin\Debug\SeatAllocation.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatAllocation\bin\Debug\SeatAllocation.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatAllocation\obj\Debug\SeatAllocation.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatAllocation\obj\Debug\SeatAllocation.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\SeatAllocation\obj\Debug\SeatAllocator.csprojResolveAssemblyReference.cache

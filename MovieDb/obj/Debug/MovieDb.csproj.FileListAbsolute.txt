@@ -1,0 +1,9 @@
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\MovieDb\bin\MovieDb.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\MovieDb\bin\MovieDb.pdb
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\MovieDb\obj\Debug\MovieDb.csprojResolveAssemblyReference.cache
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\MovieDb\obj\Debug\MovieDb.dll
+\\storage-stud\user-area\0\lj048\visual studio 2012\Projects\EuropeBus\MovieDb\obj\Debug\MovieDb.pdb
+I:\EuropeBus\MovieDb\bin\MovieDb.dll
+I:\EuropeBus\MovieDb\bin\MovieDb.pdb
+I:\EuropeBus\MovieDb\obj\Debug\MovieDb.dll
+I:\EuropeBus\MovieDb\obj\Debug\MovieDb.pdb

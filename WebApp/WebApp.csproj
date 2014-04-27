@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39825BB4-0EE0-403D-8796-4FFD736233A3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApp</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="customer\CoachListing.aspx" />
+    <Content Include="customer\ConfirmBooking.aspx" />
+    <Content Include="customer\BookingListing.aspx" />
+    <Content Include="customer\ConfirmRental.aspx" />
+    <Content Include="customer\MyBooking.aspx" />
+    <Content Include="customer\MovieListing.aspx" />
+    <Content Include="customer\TimeListing.aspx" />
+    <Content Include="customer\RouteListing.aspx" />
+    <Content Include="customer\Register.aspx" />
+    <Content Include="general.css" />
+    <None Include="Service References\MovieSearcher\Searcher.disco" />
+    <None Include="Service References\MovieSearcher\configuration91.svcinfo" />
+    <None Include="Service References\MovieSearcher\configuration.svcinfo" />
+    <None Include="Service References\MovieSearcher\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CustomerHandler.cs" />
+    <Compile Include="Controller\LogInHandler.cs" />
+    <Compile Include="Controller\WebControlGenerator.cs" />
+    <Compile Include="customer\CoachListing.aspx.cs">
+      <DependentUpon>CoachListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\CoachListing.aspx.designer.cs">
+      <DependentUpon>CoachListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\ConfirmBooking.aspx.cs">
+      <DependentUpon>ConfirmBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\ConfirmBooking.aspx.designer.cs">
+      <DependentUpon>ConfirmBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\BookingListing.aspx.cs">
+      <DependentUpon>BookingListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\BookingListing.aspx.designer.cs">
+      <DependentUpon>BookingListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\ConfirmRental.aspx.cs">
+      <DependentUpon>ConfirmRental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\ConfirmRental.aspx.designer.cs">
+      <DependentUpon>ConfirmRental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\MyBooking.aspx.cs">
+      <DependentUpon>MyBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\MyBooking.aspx.designer.cs">
+      <DependentUpon>MyBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\MovieListing.aspx.cs">
+      <DependentUpon>MovieListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\MovieListing.aspx.designer.cs">
+      <DependentUpon>MovieListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\TimeListing.aspx.cs">
+      <DependentUpon>TimeListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\TimeListing.aspx.designer.cs">
+      <DependentUpon>TimeListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\EuropeBus.Master.cs">
+      <DependentUpon>EuropeBus.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\EuropeBus.Master.designer.cs">
+      <DependentUpon>EuropeBus.Master</DependentUpon>
+    </Compile>
+    <Compile Include="customer\RouteListing.aspx.cs">
+      <DependentUpon>RouteListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\RouteListing.aspx.designer.cs">
+      <DependentUpon>RouteListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\MovieSearcher\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="customer\EuropeBus.Master" />
+    <None Include="Service References\MovieSearcher\Searcher.wsdl" />
+    <Content Include="Service References\MovieSearcher\WebApp.MovieSearcher.Movie.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{fc4346cd-3dd9-426a-ab6a-4ed0e8d6b845}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeatingAllocationComponent\SeatingAllocationComponent.csproj">
+      <Project>{a949e2ca-2893-42e2-bef6-4f67f1fa028d}</Project>
+      <Name>SeatingAllocationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDB\SqlDb.csproj">
+      <Project>{f70f2475-3a74-40eb-9b85-a99fdc0732b2}</Project>
+      <Name>SqlDb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MovieSearcher\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1426</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1880/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

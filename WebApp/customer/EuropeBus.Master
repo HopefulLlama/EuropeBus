@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EuropeBus.master.cs" Inherits="WebApp.EuropeBus.EuropeBus" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Europe Bus</title>
+    <link href="../general.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <span id="title"><asp:HyperLink ID="Logo" runat="server" Text="Europe Bus" NavigateUrl="~/customer/RouteListing.aspx"></asp:HyperLink></span>
+    <div class="header">
+        <% if (Session["user"] == null) { %>
+            <div id="logInForm" class="logIn" runat="server">
+                <asp:Label ID="Label1" runat="server" Text="E-mail: " CssClass="logInFormLabel"></asp:Label><asp:TextBox ID="txtboxLogInEmail" runat="server"></asp:TextBox> <asp:Label ID="Label2" runat="server" Text="Password: " ></asp:Label><asp:TextBox ID="txtboxLogInPassword" runat="server" TextMode="Password"></asp:TextBox><asp:Button ID="LogIn" runat="server" Text="Log In!" OnClick="LogIn_Click" /><br />
+                <asp:HyperLink ID="RegisterLink" runat="server" Text="(Create an account)" NavigateUrl="~/customer/Register.aspx"></asp:HyperLink>
+            </div>
+        <% } else {
+        %>
+            <div id="userInfo" class="logIn" runat="server">Welcome 
+                <% 
+                    Model.Customer user = (Model.Customer)Session["user"]; 
+                    Response.Write(user.FirstName + " " + user.Surname);%>! <br />
+            <asp:Button ID="buttonLogOut" runat="server" Text="Log Out" OnClick="buttonLogOut_Click" /> </div> 
+        <% } %>
+    </div>
+    <br class="clear"/> 
+    <div>
+        <asp:HyperLink ID="RouteListingLink" runat="server" Text="Routes" NavigateUrl="~/customer/RouteListing.aspx" CssClass="MenuItem"></asp:HyperLink>
+        <asp:HyperLink ID="MovieListingLink" runat="server" Text="Movies" NavigateUrl="~/customer/MovieListing.aspx" CssClass="MenuItem"></asp:HyperLink>
+        <% if (Session["user"] != null) { %>
+            <asp:HyperLink ID="MyBookingLink" runat="server" Text="My Bookings" NavigateUrl="~/customer/MyBooking.aspx" CssClass="MenuItem"></asp:HyperLink>
+        <% } %>
+    </div>
+        <hr />
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">      
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <br />
+    <br />
+</body>
+</html>

@@ -1,0 +1,5 @@
+EuropeBus
+
+A system to allow the booking of coach journeys within Europe. Also, connected to a web service which allows for the searching and rental of movies for that journey.
+
+Powered by ASP.NET using C#, ASP.NET using C# web service, MySQL database, and MS Access database.
